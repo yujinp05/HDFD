@@ -163,3 +163,381 @@ footer{padding:27px 0;color:#7c878e;font-size:11px}
   .person-photo{width:105px;height:135px}
   .footer{display:block}
 }
+/* =========================================================
+   JOIN PAGE
+========================================================= */
+
+.join-page-hero{
+  padding:78px 0 72px;
+  background:#fff;
+}
+
+.join-page-eyebrow{
+  font-size:11px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--navy);
+  margin-bottom:13px;
+}
+
+.join-page-hero h1{
+  font-family:var(--serif);
+  font-size:34px;
+  line-height:1.45;
+  font-weight:400;
+  color:var(--navy);
+  margin:0;
+}
+
+.join-page-rule{
+  width:40px;
+  height:2px;
+  background:var(--navy);
+  margin:22px 0 20px;
+}
+
+.join-page-hero p{
+  max-width:820px;
+  margin:0;
+  font-size:14px;
+  line-height:1.95;
+  color:#606b73;
+}
+
+
+/* ---------------------------------------------------------
+   COMMON
+--------------------------------------------------------- */
+
+.join-page-section{
+  background:#fff;
+}
+
+
+/* ---------------------------------------------------------
+   RESEARCH OPPORTUNITIES
+--------------------------------------------------------- */
+
+.join-research-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+}
+
+.join-research-item{
+  padding:5px 28px 5px 0;
+  margin-right:28px;
+  border-right:1px solid var(--line);
+}
+
+.join-research-item:last-child{
+  border-right:0;
+  margin-right:0;
+}
+
+.join-research-item .num{
+  font-family:Georgia,serif;
+  font-size:13px;
+  color:var(--navy);
+}
+
+.join-research-item h3{
+  margin:10px 0 12px;
+  font-size:16px;
+  line-height:1.45;
+  font-weight:600;
+  color:#273f58;
+}
+
+.join-research-item p{
+  margin:0;
+  font-size:12px;
+  line-height:1.8;
+  color:#68737b;
+}
+
+
+/* ---------------------------------------------------------
+   WHAT YOU WILL LEARN
+--------------------------------------------------------- */
+
+.join-learning{
+  background:var(--soft);
+}
+
+.join-learning-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  column-gap:45px;
+  row-gap:28px;
+}
+
+.join-learning-item{
+  border-top:1px solid #d8dde1;
+  padding-top:17px;
+}
+
+.join-learning-item h3{
+  margin:0 0 7px;
+  font-family:var(--serif);
+  font-size:17px;
+  font-weight:400;
+  color:var(--navy);
+}
+
+.join-learning-item p{
+  margin:0;
+  font-size:12px;
+  line-height:1.8;
+  color:#68737b;
+}
+
+
+/* ---------------------------------------------------------
+   STUDENTS / POSITIONS
+--------------------------------------------------------- */
+
+.join-candidate-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:85px;
+}
+
+.join-check-list{
+  list-style:none;
+  margin:0;
+  padding:0;
+  border-top:1px solid var(--line);
+}
+
+.join-check-list li{
+  position:relative;
+  padding:11px 0 11px 20px;
+  border-bottom:1px solid var(--line);
+  font-size:12.5px;
+  color:#4f5961;
+}
+
+.join-check-list li:before{
+  content:"—";
+  position:absolute;
+  left:0;
+  color:var(--navy);
+}
+
+.join-note{
+  margin:18px 0 0;
+  padding-left:15px;
+  border-left:2px solid #bcc8d2;
+  font-size:11.5px;
+  line-height:1.8;
+  color:#78838b;
+}
+
+.join-position{
+  padding:17px 0 20px;
+  border-top:1px solid var(--line);
+}
+
+.join-position:last-child{
+  border-bottom:1px solid var(--line);
+}
+
+.join-position-label{
+  font-family:Georgia,serif;
+  font-size:11px;
+  color:var(--navy);
+  letter-spacing:.04em;
+}
+
+.join-position h3{
+  margin:4px 0 2px;
+  font-size:15px;
+  color:#334b61;
+}
+
+.join-position p{
+  margin:0;
+  font-size:12px;
+  color:var(--muted);
+}
+
+
+/* ---------------------------------------------------------
+   HOW TO APPLY
+--------------------------------------------------------- */
+
+.join-page-apply{
+  background:var(--navy);
+  color:#fff;
+  border-bottom:0;
+  padding:65px 0;
+}
+
+.join-page-apply-grid{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:85px;
+  align-items:start;
+}
+
+.join-page-eyebrow.light{
+  color:#b9c7d3;
+}
+
+.join-page-apply h2{
+  margin:8px 0 15px;
+  font-family:var(--serif);
+  font-size:23px;
+  line-height:1.5;
+  font-weight:400;
+  color:#fff;
+}
+
+.join-page-apply > .container > div:first-child > p{
+  max-width:520px;
+  margin:0;
+  font-size:12.5px;
+  line-height:1.9;
+  color:#c7d0d8;
+}
+
+.join-apply-info{
+  border-left:1px solid rgba(255,255,255,.32);
+  padding-left:30px;
+}
+
+.join-apply-row{
+  display:grid;
+  grid-template-columns:28px 1fr;
+  gap:12px;
+  padding:10px 0;
+  border-bottom:1px solid rgba(255,255,255,.12);
+}
+
+.join-apply-row > span{
+  font-family:Georgia,serif;
+  font-size:11px;
+  color:#aebdca;
+}
+
+.join-apply-row strong{
+  display:block;
+  font-size:12.5px;
+  font-weight:600;
+  color:#fff;
+}
+
+.join-apply-row p{
+  margin:2px 0 0;
+  font-size:11.5px;
+  line-height:1.6;
+  color:#bbc7d1;
+}
+
+.join-email-button{
+  display:inline-block;
+  margin-top:25px;
+  padding:10px 17px;
+  border:1px solid rgba(255,255,255,.6);
+  font-size:12px;
+  color:#fff;
+  transition:background .2s,color .2s;
+}
+
+.join-email-button:hover{
+  background:#fff;
+  color:var(--navy);
+}
+
+
+/* =========================================================
+   JOIN PAGE RESPONSIVE
+========================================================= */
+
+@media(max-width:900px){
+
+  .join-research-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .join-research-item{
+    padding:20px 25px 20px 0;
+  }
+
+  .join-research-item:nth-child(2){
+    border-right:0;
+    margin-right:0;
+  }
+
+  .join-research-item:nth-child(n+3){
+    border-top:1px solid var(--line);
+  }
+
+  .join-learning-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .join-candidate-grid,
+  .join-page-apply-grid{
+    grid-template-columns:1fr;
+    gap:50px;
+  }
+
+}
+
+
+@media(max-width:680px){
+
+  .join-page-hero{
+    padding:52px 0 48px;
+  }
+
+  .join-page-hero h1{
+    font-size:27px;
+  }
+
+  .join-page-hero h1 br{
+    display:none;
+  }
+
+  .join-research-grid,
+  .join-learning-grid{
+    grid-template-columns:1fr;
+  }
+
+  .join-research-item{
+    margin:0;
+    padding:20px 0;
+    border-right:0;
+    border-top:1px solid var(--line);
+  }
+
+  .join-research-item:first-child{
+    border-top:0;
+    padding-top:0;
+  }
+
+  .join-learning-grid{
+    row-gap:22px;
+  }
+
+  .join-candidate-grid{
+    gap:55px;
+  }
+
+  .join-page-apply{
+    padding:52px 0;
+  }
+
+  .join-page-apply-grid{
+    gap:38px;
+  }
+
+  .join-apply-info{
+    border-left:0;
+    border-top:1px solid rgba(255,255,255,.32);
+    padding-left:0;
+    padding-top:18px;
+  }
+
+}
