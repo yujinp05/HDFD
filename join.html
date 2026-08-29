@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>대학원생 모집 | HDFD Lab</title>
+<meta name="description" content="HDFD Lab 대학원생 모집 안내">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23173b67'/%3E%3Ctext x='32' y='41' font-family='Georgia,serif' font-size='24' fill='white' text-anchor='middle'%3EHF%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="topline"></div>
+
+<header>
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <div class="brand-name">HDFD Lab</div>
+      <div class="brand-divider"></div>
+      <div class="brand-detail">
+        <div class="main">High-Dimensional &amp; Functional Data Lab</div>
+        <div class="sub">Yonsei University | Division of Data Science</div>
+      </div>
+    </a>
+    <nav id="siteNav">
+      <a href="index.html#home">홈</a>
+      <a href="projects.html">프로젝트</a>
+      <a href="publications.html">연구성과</a>
+      <a href="people.html">구성원</a>
+      <a href="join.html" class="active">대학원생 모집</a>
+    </nav>
+    <button class="navToggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section id="join" class="join" style="border-bottom:0">
+    <div class="container join-grid">
+      <div>
+        <div class="eyebrow">Join HDFD Lab</div>
+        <h2>미래의 데이터분석<br>전문가를 기다립니다.</h2>
+        <p>데이터 분석에 대한 열정과 주도적인 문제해결 능력을 가진 학생과 함께 연구하고 싶습니다.</p>
+      </div>
+      <div class="join-info">
+        <div>데이터분석에 대한 열정</div>
+        <div>R, Python 등 탄탄한 프로그래밍 능력</div>
+        <div>주도적인 문제해결 능력</div>
+        <div>선형대수, 확률통계에 대한 수학적 사고력</div>
+        <div>제출서류 · 자기소개서 · 성적증명서 · CV</div>
+        <div class="email"><a href="mailto:yujinpark@yonsei.ac.kr">yujinpark@yonsei.ac.kr</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div>HDFD Lab · High-Dimensional &amp; Functional Data Lab · Yonsei University</div>
+    <div>© 2026 HDFD Lab</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('siteNav');
+  toggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded','false');
+    });
+  });
+})();
+</script>
+</body>
+</html>

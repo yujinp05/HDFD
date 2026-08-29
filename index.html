@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HDFD Lab | High-Dimensional & Functional Data Lab</title>
+<meta name="description" content="HDFD Lab, Yonsei University Division of Data Science">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23173b67'/%3E%3Ctext x='32' y='41' font-family='Georgia,serif' font-size='24' fill='white' text-anchor='middle'%3EHF%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="topline"></div>
+
+<header>
+  <div class="container header-inner">
+    <a class="brand" href="#home">
+      <div class="brand-name">HDFD Lab</div>
+      <div class="brand-divider"></div>
+      <div class="brand-detail">
+        <div class="main">High-Dimensional &amp; Functional Data Lab</div>
+        <div class="sub">Yonsei University | Division of Data Science</div>
+      </div>
+    </a>
+    <nav id="siteNav">
+      <a href="#home">홈</a>
+      <a href="projects.html">프로젝트</a>
+      <a href="publications.html">연구성과</a>
+      <a href="people.html">구성원</a>
+      <a href="join.html">대학원생 모집</a>
+    </nav>
+    <button class="navToggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="home">
+  <div class="hero-image">
+    <img src="campus.png" alt="Yonsei University campus">
+  </div>
+
+  <section class="intro">
+    <div class="container">
+      <h1>High-Dimensional &amp; Functional Data Lab</h1>
+      <div class="rule"></div>
+      <p>
+        고차원·함수형 데이터의 구조를 이해하고 분석합니다.<br>
+        HDFD 연구실은 고차원 데이터와 함수형 데이터의 구조를 이해하기 위한 통계적 방법론을 개발하고,
+        다양한 데이터 분석 문제를 연구합니다.
+      </p>
+    </div>
+  </section>
+
+  <section id="research">
+    <div class="container">
+      <div class="section-head">
+        <h2>연구 분야</h2>
+        <div class="small-rule"></div>
+      </div>
+      <div class="research-grid">
+        <article class="research">
+          <div class="num">01</div>
+          <h3>충분차원축소 (SDR)</h3>
+          <ul>
+            <li>하이브리드 차원축소 방법</li>
+            <li>Graph 기반 차원축소</li>
+            <li>경제지표 예측 연구</li>
+            <li>차원축소 방법론 개발 및 응용</li>
+          </ul>
+        </article>
+        <article class="research">
+          <div class="num">02</div>
+          <h3>함수형 데이터분석 (FDA)</h3>
+          <ul>
+            <li>함수형 차원축소 방법</li>
+            <li>함수형 부트스트랩 방법</li>
+            <li>지하철 승하차 패턴 분석 연구</li>
+            <li>함수형 분석 방법론 개발 및 응용</li>
+          </ul>
+        </article>
+        <article class="research">
+          <div class="num">03</div>
+          <h3>공정통계 및 통계적 품질관리</h3>
+          <ul>
+            <li>함수형 공정통계 방법론</li>
+            <li>공정통계 방법론</li>
+            <li>반도체 수율 예측 연구</li>
+            <li>나노 멤브레인 필터 모델링 연구</li>
+          </ul>
+        </article>
+        <article class="research">
+          <div class="num">04</div>
+          <h3>빅데이터 분석</h3>
+          <ul>
+            <li>자율주행 운전자행태 분석 연구</li>
+            <li>LLM 임베딩 클러스터링 연구</li>
+            <li>도로 교통망 복잡도 분석 연구</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="news" class="featured">
+    <div class="container">
+      <div class="list-head">
+        <h2>최근 소식</h2>
+      </div>
+      <div class="news" style="max-width:760px">
+        <div class="news-row"><div class="date">2024</div><div class="text">연구실 주요 연구과제 및 연구성과를 업데이트하고 있습니다.</div></div>
+        <div class="news-row"><div class="date">2023</div><div class="text">고차원 자료 분석 및 충분차원축소 관련 연구 수행</div></div>
+        <div class="news-row"><div class="date">2023</div><div class="text">비정형 경제 데이터 활용에 대한 연구 수행</div></div>
+        <div class="news-row"><div class="date">2022</div><div class="text">빅데이터·AI를 이용한 자율주행 관련 연구 수행</div></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div>HDFD Lab · High-Dimensional &amp; Functional Data Lab · Yonsei University</div>
+    <div>© 2026 HDFD Lab</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('siteNav');
+  toggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded','false');
+    });
+  });
+
+  var sections = Array.from(document.querySelectorAll('main section[id]'));
+  var links = Array.from(nav.querySelectorAll('a'));
+  var spy = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        links.forEach(function(a){
+          a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id);
+        });
+      }
+    });
+  }, {rootMargin:'-45% 0px -50% 0px'});
+  sections.forEach(function(s){ spy.observe(s); });
+})();
+</script>
+</body>
+</html>
