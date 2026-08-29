@@ -50,7 +50,7 @@ nav a:hover,nav a.active{color:var(--navy);border-color:var(--navy)}
 
 section{padding:58px 0;border-bottom:1px solid var(--line)}
 .section-head{text-align:center;margin-bottom:37px}
-.section-head h2{font-family:var(--serif);font-size:27px;font-weight:400;color:var(--navy);margin:0 0 9px}
+.section-head h2{font-family:var(--serif);font-size:22px;font-weight:400;color:var(--navy);margin:0 0 9px}
 .section-head .small-rule{width:35px;height:2px;background:var(--navy);margin:0 auto 13px}
 .section-head p{font-size:13px;color:var(--muted);margin:0}
 
