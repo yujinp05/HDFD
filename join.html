@@ -3,440 +3,152 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>대학원생 모집 | HDFD Lab</title>
 <meta name="description" content="HDFD Lab 대학원생 및 학부 연구생 모집 안내">
-
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23173b67'/%3E%3Ctext x='32' y='41' font-family='Georgia,serif' font-size='24' fill='white' text-anchor='middle'%3EHF%3C/text%3E%3C/svg%3E">
-
 <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
 <div class="topline"></div>
 
 <header>
-<div class="container header-inner">
-
-<a class="brand" href="index.html">
-<div class="brand-name">HDFD Lab</div>
-<div class="brand-divider"></div>
-
-<div class="brand-detail">
-<div class="main">High-Dimensional &amp; Functional Data Lab</div>
-<div class="sub">
-Yonsei University | Division of Data Science · Department of Information and Statistics
-</div>
-</div>
-</a>
-
-<nav id="siteNav">
-<a href="index.html#home">홈</a>
-<a href="projects.html">프로젝트</a>
-<a href="publications.html">연구성과</a>
-<a href="people.html">구성원</a>
-<a href="join.html" class="active">대학원생 모집</a>
-</nav>
-
-<button
-  class="navToggle"
-  id="navToggle"
-  aria-label="메뉴 열기"
-  aria-expanded="false"
-  aria-controls="siteNav">
-<span></span><span></span><span></span>
-</button>
-
-</div>
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <div class="brand-name">HDFD Lab</div>
+      <div class="brand-divider"></div>
+      <div class="brand-detail">
+        <div class="main">High-Dimensional &amp; Functional Data Lab</div>
+        <div class="sub">Yonsei University | Division of Data Science · Department of Information and Statistics</div>
+      </div>
+    </a>
+    <nav id="siteNav">
+      <a href="index.html#home">홈</a>
+      <a href="projects.html">프로젝트</a>
+      <a href="publications.html">연구성과</a>
+      <a href="people.html">구성원</a>
+      <a href="join.html" class="active">대학원생 모집</a>
+    </nav>
+    <button class="navToggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
 </header>
-
 
 <main>
 
-<!-- =========================================================
-     HERO
-========================================================= -->
-
-<section class="join-page-hero">
-
-<div class="container">
-
-<div class="join-page-eyebrow">Join HDFD Lab</div>
-
-<h1>
-통계적 방법론과 실제 데이터 분석에 관심 있는<br>
-학생을 모집합니다.
-</h1>
-
-<div class="join-page-rule"></div>
-
-<p>
-HDFD Lab에서는 고차원 데이터와 함수형 데이터의 구조를 이해하기 위한
-통계적 방법론을 연구하며, 개발된 방법을 의료·반도체·교통 등
-다양한 실제 데이터 분석 문제에 적용합니다.
-새로운 통계 방법론을 배우고 연구 문제를 주도적으로 해결해 나가고 싶은
-대학원생과 학부 연구생을 환영합니다.
-</p>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     RESEARCH OPPORTUNITIES
-========================================================= -->
-
-<section class="join-page-section">
-
-<div class="container">
-
-<div class="section-head">
-<h2>Research Opportunities</h2>
-<div class="small-rule"></div>
-<p>HDFD Lab에서 함께 연구할 수 있는 주요 분야입니다.</p>
-</div>
-
-
-<div class="join-research-grid">
-
-<div class="join-research-item">
-<div class="num">01</div>
-<h3>Functional Data Analysis</h3>
-<p>
-시간에 따라 관측되는 곡선, 생체신호 및 다양한 함수형 데이터의
-구조를 분석하기 위한 통계적 방법론을 연구합니다.
-</p>
-</div>
-
-
-<div class="join-research-item">
-<div class="num">02</div>
-<h3>High-Dimensional Data &amp; SDR</h3>
-<p>
-고차원 데이터에 내재된 핵심 구조를 탐색하고,
-충분차원축소를 포함한 효과적인 차원축소 방법론을 연구합니다.
-</p>
-</div>
-
-
-<div class="join-research-item">
-<div class="num">03</div>
-<h3>Statistical Process Analytics</h3>
-<p>
-반도체 제조공정을 비롯한 복잡한 산업 데이터에서
-공정의 특성을 이해하고 품질과 성능을 예측하는 통계 방법을 연구합니다.
-</p>
-</div>
-
-
-<div class="join-research-item">
-<div class="num">04</div>
-<h3>Applied Data Analysis</h3>
-<p>
-의료, 제조, 교통 등 다양한 실제 문제에
-통계적 모델링과 데이터 분석 방법을 적용합니다.
-</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     WHAT YOU WILL LEARN
-========================================================= -->
-
-<section class="join-learning">
-
-<div class="container">
-
-<div class="section-head">
-<h2>What You Will Learn</h2>
-<div class="small-rule"></div>
-<p>
-연구 문제를 이해하는 단계부터 분석, 방법론 개발, 논문 작성까지
-통계 연구의 전 과정을 경험합니다.
-</p>
-</div>
-
-
-<div class="join-learning-grid">
-
-<div class="join-learning-item">
-<h3>Literature &amp; Theory</h3>
-<p>
-통계학과 데이터과학 분야의 최신 논문을 읽고
-연구에 필요한 이론적 배경을 학습합니다.
-</p>
-</div>
-
-
-<div class="join-learning-item">
-<h3>R &amp; Python</h3>
-<p>
-R과 Python을 활용하여 통계 분석,
-시뮬레이션 및 실제 데이터 분석을 수행합니다.
-</p>
-</div>
-
-
-<div class="join-learning-item">
-<h3>Simulation</h3>
-<p>
-Monte Carlo simulation을 통해 새로운 통계 방법의
-성능과 특성을 체계적으로 평가합니다.
-</p>
-</div>
-
-
-<div class="join-learning-item">
-<h3>Methodology</h3>
-<p>
-기존 방법의 한계를 이해하고 새로운 연구 문제를 설정하여
-통계 방법론을 개발하는 과정을 경험합니다.
-</p>
-</div>
-
-
-<div class="join-learning-item">
-<h3>Real Data Analysis</h3>
-<p>
-실제 데이터를 분석하면서 통계적 결과를 해석하고
-연구 문제와 연결하는 방법을 학습합니다.
-</p>
-</div>
-
-
-<div class="join-learning-item">
-<h3>Academic Communication</h3>
-<p>
-연구 결과를 정리하여 학술 논문을 작성하고
-국내외 학술대회에서 발표하는 경험을 쌓습니다.
-</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     WHO WE ARE LOOKING FOR / OPEN POSITIONS
-========================================================= -->
-
-<section class="join-page-section">
-
-<div class="container join-candidate-grid">
-
-
-<!-- LEFT -->
-
-<div>
-
-<div class="section-head">
-<h2>We Welcome Students Who</h2>
-<div class="small-rule"></div>
-<p>다음과 같은 학생들의 지원을 환영합니다.</p>
-</div>
-
-<ul class="join-check-list">
-<li>통계학과 데이터 분석에 관심이 있는 학생</li>
-<li>새로운 문제를 스스로 고민하고 해결하는 과정에 흥미가 있는 학생</li>
-<li>수학적·통계적 사고를 좋아하는 학생</li>
-<li>R 또는 Python을 배우고 연구에 활용하고 싶은 학생</li>
-<li>대학원 진학이나 학술 연구에 관심이 있는 학생</li>
-</ul>
-
-<p class="join-note">
-연구 경험이나 고급 프로그래밍 능력은 필수 요건이 아닙니다.
-연구에 필요한 내용은 프로젝트를 수행하면서 함께 학습합니다.
-</p>
-
-</div>
-
-
-<!-- RIGHT -->
-
-<div>
-
-<div class="section-head">
-<h2>Open Positions</h2>
-<div class="small-rule"></div>
-<p>현재 다음 과정의 학생을 모집하고 있습니다.</p>
-</div>
-
-
-<div class="join-position">
-
-<div class="join-position-label">
-Graduate Students
-</div>
-
-<h3>석사과정</h3>
-
-<p>
-정보통계학과 석사과정 진학 예정자 및 재학생
-</p>
-
-</div>
-
-
-<div class="join-position">
-
-<div class="join-position-label">
-Undergraduate Researchers
-</div>
-
-<h3>학부 연구생</h3>
-
-<p>
-데이터사이언스학부 3학년 1학기 이상
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     HOW TO APPLY
-========================================================= -->
-
-<section class="join-page-apply">
-
-<div class="container join-page-apply-grid">
-
-<div>
-
-<div class="join-page-eyebrow light">
-How to Apply
-</div>
-
-<h2>
-HDFD Lab에서 함께 연구하고 싶은 학생은<br>
-이메일로 지원해 주세요.
-</h2>
-
-<p>
-연구 관심 분야가 아직 구체적으로 정해져 있지 않아도 괜찮습니다.
-관심 있는 연구 주제와 앞으로 공부해 보고 싶은 분야를 간략하게 알려주세요.
-</p>
-
-</div>
-
-
-<div class="join-apply-info">
-
-<div class="join-apply-row">
-<span>01</span>
-<div>
-<strong>CV</strong>
-<p>학력 및 주요 경험을 포함한 간단한 이력서</p>
-</div>
-</div>
-
-
-<div class="join-apply-row">
-<span>02</span>
-<div>
-<strong>성적증명서</strong>
-<p>현재까지의 대학 성적증명서</p>
-</div>
-</div>
-
-
-<div class="join-apply-row">
-<span>03</span>
-<div>
-<strong>연구 관심 분야</strong>
-<p>관심 있는 연구 분야 및 지원 동기를 이메일에 간략히 작성</p>
-</div>
-</div>
-
-
-<a class="join-email-button"
-   href="mailto:yujinpark@yonsei.ac.kr">
-yujinpark@yonsei.ac.kr
-</a>
-
-</div>
-
-</div>
-
-</section>
-
+  <section class="intro">
+    <div class="container">
+      <h1>대학원생 모집</h1>
+      <div class="rule"></div>
+      <p>
+        HDFD Lab에서는 고차원 데이터와 함수형 데이터의 구조를 이해하기 위한 통계적 방법론을 연구하며,
+        개발된 방법을 의료·반도체·교통 등 다양한 실제 데이터 분석 문제에 적용합니다.
+        새로운 통계 방법론을 배우고 연구 문제를 주도적으로 해결해 나가고 싶은 대학원생과 학부 연구생을 환영합니다.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="list-head">
+        <h2 style="font-size:20px">모집 대상</h2>
+      </div>
+      <div class="pub-list">
+        <div class="pub-row">
+          <div class="num">01</div>
+          <div>
+            <div class="pub-title">석사과정</div>
+            <div class="pub-meta">정보통계학과 석사과정 진학 예정자 및 재학생</div>
+          </div>
+        </div>
+        <div class="pub-row">
+          <div class="num">02</div>
+          <div>
+            <div class="pub-title">학부 연구생</div>
+            <div class="pub-meta">데이터사이언스학부 3학년 1학기 이상</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="list-head" style="margin-top:44px">
+        <h2 style="font-size:20px">무엇을 배우나요</h2>
+      </div>
+      <p style="font-size:12.5px;color:var(--muted);margin:0;padding:15px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);line-height:2">
+        Literature &amp; Theory · R &amp; Python · Simulation · Methodology · Real Data Analysis · Academic Communication
+      </p>
+      <div class="pub-note">연구 문제를 이해하는 단계부터 분석, 방법론 개발, 논문 작성까지 통계 연구의 전 과정을 경험합니다.</div>
+
+      <div class="list-head" style="margin-top:44px">
+        <h2 style="font-size:20px">지원 자격</h2>
+      </div>
+      <p style="font-size:12.5px;color:var(--muted);margin:0;padding:15px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);line-height:2">
+        통계학과 데이터 분석에 관심이 있는 학생<br>
+        새로운 문제를 스스로 고민하고 해결하는 과정에 흥미가 있는 학생<br>
+        수학적·통계적 사고를 좋아하는 학생<br>
+        R 또는 Python을 배우고 연구에 활용하고 싶은 학생<br>
+        대학원 진학이나 학술 연구에 관심이 있는 학생
+      </p>
+      <div class="pub-note">연구 경험이나 고급 프로그래밍 능력은 필수 요건이 아닙니다. 연구에 필요한 내용은 프로젝트를 수행하면서 함께 학습합니다.</div>
+
+      <div class="list-head" style="margin-top:44px">
+        <h2 style="font-size:20px">지원 방법</h2>
+      </div>
+      <div class="pub-list">
+        <div class="pub-row">
+          <div class="num">01</div>
+          <div>
+            <div class="pub-title">CV</div>
+            <div class="pub-meta">학력 및 주요 경험을 포함한 간단한 이력서</div>
+          </div>
+        </div>
+        <div class="pub-row">
+          <div class="num">02</div>
+          <div>
+            <div class="pub-title">성적증명서</div>
+            <div class="pub-meta">현재까지의 대학 성적증명서</div>
+          </div>
+        </div>
+        <div class="pub-row">
+          <div class="num">03</div>
+          <div>
+            <div class="pub-title">연구 관심 분야</div>
+            <div class="pub-meta">관심 있는 연구 분야 및 지원 동기를 이메일에 간략히 작성</div>
+          </div>
+        </div>
+      </div>
+      <p style="margin-top:16px;font-size:13px">
+        위 내용을 정리하여 아래 이메일로 지원해 주세요 →
+        <a href="mailto:yujinpark@yonsei.ac.kr">yujinpark@yonsei.ac.kr</a>
+      </p>
+
+    </div>
+  </section>
 
 </main>
 
-
 <footer>
-
-<div class="container footer">
-
-<div>
-HDFD Lab · High-Dimensional &amp; Functional Data Lab · Yonsei University
-</div>
-
-<div>
-<a href="mailto:yujinpark@yonsei.ac.kr">
-yujinpark@yonsei.ac.kr
-</a>
-· © 2026 HDFD Lab
-</div>
-
-</div>
-
+  <div class="container footer">
+    <div>HDFD Lab · High-Dimensional &amp; Functional Data Lab · Yonsei University</div>
+    <div><a href="mailto:yujinpark@yonsei.ac.kr">yujinpark@yonsei.ac.kr</a> · © 2026 HDFD Lab</div>
+  </div>
 </footer>
 
-
 <script>
-
 (function(){
-
-var toggle = document.getElementById('navToggle');
-var nav = document.getElementById('siteNav');
-
-toggle.addEventListener('click', function(){
-
-var open = nav.classList.toggle('open');
-
-toggle.setAttribute(
-'aria-expanded',
-open ? 'true' : 'false'
-);
-
-});
-
-
-nav.querySelectorAll('a').forEach(function(a){
-
-a.addEventListener('click', function(){
-
-nav.classList.remove('open');
-
-toggle.setAttribute(
-'aria-expanded',
-'false'
-);
-
-});
-
-});
-
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('siteNav');
+  toggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded','false');
+    });
+  });
 })();
-
 </script>
-
 </body>
 </html>
