@@ -106,6 +106,8 @@ section{padding:58px 0;border-bottom:1px solid var(--line)}
 .person h3{font-family:var(--serif);font-size:24px;font-weight:400;color:var(--navy);margin:0 0 4px}
 .person .position{font-size:12px;color:var(--muted);margin-bottom:18px}
 .person p{font-size:12.5px;margin:5px 0}
+.person-photo.placeholder{background:#d6e2ec}
+.person-photo.placeholder svg{width:56px;height:56px;fill:#ffffff}
 .member-list{border-top:1px solid var(--line)}
 .member{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid var(--line);font-size:12.5px}
 .member span{color:var(--muted)}
